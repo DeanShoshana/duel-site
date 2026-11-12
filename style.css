@@ -1,0 +1,15 @@
+:root { color-scheme: dark; background: #090909; color: #f4f2ed; font: 18px/1.65 system-ui, sans-serif; }
+body { margin: 0; }
+main { width: min(700px, calc(100% - 48px)); margin: 0 auto; padding: clamp(48px, 10vw, 128px) 0; }
+h1 { margin: 0; font-size: clamp(3.25rem, 10vw, 6rem); letter-spacing: .18em; line-height: 1.05; }
+h2 { margin: 2rem 0 .4rem; font-size: 1.3rem; }
+p { color: #bcbcb8; }
+.lead { color: #f4f2ed; font-size: 1.5rem; margin-bottom: .65rem; }
+nav { display: flex; flex-wrap: wrap; gap: 1.4rem; margin-top: 2rem; border-top: 1px solid #393939; padding-top: 1rem; }
+a { color: #f4f2ed; text-underline-offset: .22em; }
+a:focus-visible { outline: 2px solid #fff; outline-offset: 5px; }
+.mark { width: 78px; display: flex; align-items: center; justify-content: space-between; margin-bottom: 26px; }
+.mark i { background: currentColor; border-radius: 2px; height: 28px; width: 4px; }
+.mark i:first-child { transform: translateY(-5px); }
+.mark i:last-child { transform: translateY(5px); }
+.mark b { background: currentColor; border-radius: 100%; width: 7px; height: 7px; }
